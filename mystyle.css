@@ -13,6 +13,7 @@
     align-content: center;
     text-align: center;
     font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /*Styling for menu items*/
@@ -33,7 +34,7 @@
 }
 
 .search-icon {
-    padding-left: 1em;
+    padding-left: 2em;
 }
 /*Login and cart styling*/
 .child3 {
@@ -43,7 +44,8 @@
     color: white;
     align-content: center;
     padding-right: 2em;
-    padding-top: .5em
+    padding-top: 1em;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 a, a:active, a:visited {
