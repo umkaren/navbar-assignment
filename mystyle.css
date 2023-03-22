@@ -1,0 +1,57 @@
+.parent {
+    display: flex;
+    width: 100%;
+    background-color: transparent;
+}
+
+/* Styling for SET container*/
+.child1 {
+    flex: 10%;
+    background-color: green;
+    color: white;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-size: 2em;
+}
+
+/*Styling for menu items*/
+.child2 {
+    flex: 75%;
+    display: flex;
+    background-color: black;
+    color: white;
+    list-style-type: none;
+    align-items: center;
+    font-size: smaller;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu-padding {
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.search-icon {
+    padding-left: 1em;
+}
+/*Login and cart styling*/
+.child3 {
+    flex: 15%;
+    display: flex;
+    background-color: black;
+    color: white;
+    align-content: center;
+    padding-right: 2em;
+    padding-top: .5em
+}
+
+a, a:active, a:visited {
+    color: white;
+    text-decoration: none;
+    }
+
+a:hover {
+    color:aquamarine;
+    text-decoration: none;
+}
